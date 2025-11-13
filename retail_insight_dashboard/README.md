@@ -101,14 +101,15 @@ For theoretical background and visualization design:
 
 ## 📜 License
 This project is released under the **MIT License**.  
-© 2025 Florian > À compléter (Last Name)
+© 2025 Florian Crochet
 
 ---
 
 ## 👤 Author
-**Florian > À compléter (Last Name)**  
-*Econometrics & Statistics Student | Data & Financial Visualization Enthusiast*  
-📫 [LinkedIn](https://www.linkedin.com/in/your-profile) | [Email](mailto:your.email@example.com) | [Portfolio](https://your-website.com)
+**Florian Crochet**  
+[GitHub Profile](https://github.com/floriancrochet)
+
+*Master 1 – Econometrics & Statistics, Applied Econometrics Track*  
 
 ---
 
