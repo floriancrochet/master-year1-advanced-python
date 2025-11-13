@@ -95,8 +95,9 @@ This project is released under the **MIT License**.
 
 ## 👤 Author
 **Florian Crochet**  
-*Econometrics & Statistics Student | Data Visualization & Financial Modeling Enthusiast*  
-📫 [LinkedIn](https://www.linkedin.com/in/your-profile) | [Email](mailto:your.email@example.com)
+[GitHub Profile](https://github.com/floriancrochet)
+
+*Master 1 – Econometrics & Statistics, Applied Econometrics Track*  
 
 ---
 
