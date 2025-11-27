@@ -1,84 +1,143 @@
-# Supermarket Sales Dashboard
-*A Dash-based interactive application for analyzing supermarket sales by gender and city.*
+# Supermarket & ECAP Store Dashboards  
+*Interactive Dash applications for retail sales analysis and performance monitoring.*
+
+---
+
+## 🌐 Live Dashboards
+Access the deployed dashboards directly:
+
+- **Supermarket Sales Dashboard**: https://master-year1-advanced-python-1.onrender.com  
+- **ECAP Store Dashboard**: https://master-year1-advanced-python.onrender.com
 
 ---
 
 ## 📘 Overview
-This project is an interactive dashboard developed with **Python** and **Dash** to analyze sales data from the `supermarket_sales.csv` dataset. It allows users to explore purchasing patterns through selected indicators and visualizations, dynamically filtered by **gender** and **city**.
+This project consists of two analytical dashboards developed with **Dash** to explore and visualize retail sales data:
 
-The application was created as part of a Python–Dash coursework project and focuses on clarity, interactivity, and structured data analysis.
+- **Supermarket Sales Dashboard**: focuses on analyzing supermarket transactions by gender and city.
+- **ECAP Store Dashboard**: provides insights into omnichannel retail performance, including revenue trends and product performance.
+
+Both applications aim to deliver clear, interactive decision-support tools for sales analysis and operational monitoring.
 
 **Objectives**
-- Provide an interactive analysis of supermarket sales data
-- Enable filtering by customer gender and city
-- Visualize key indicators and trends in purchasing behavior
+- Visualize and analyze sales performance through dynamic dashboards
+- Enable interactive filtering for targeted analysis
+- Provide key performance indicators for strategic insights
+- Support data-driven decision-making through graphical summaries
 
 ---
 
 ## ⚙️ Features
-- Interactive filters by gender and city
-- Total purchase amount indicator (sum of sales)
-- Total number of purchases indicator
-- Histogram of total purchase amounts by gender and city
-- Pie chart of product category distribution
-- Weekly evolution line chart of total purchase amounts by city
+
+### Supermarket Sales Dashboard
+- Total purchase amount indicator (sum of total sales)
+- Total number of purchases indicator (unique invoices)
+- Interactive histogram of total purchase amounts by gender and city
+- Pie chart showing product category distribution
+- Weekly evolution line chart of total purchases by city
+- Filters by gender and city
+- French-translated interface for data display
+
+### ECAP Store Dashboard
+- Monthly revenue indicator with delta comparison
+- Monthly sales frequency indicator
+- Top 10 best-selling products by gender
+- Weekly revenue evolution chart
+- Dynamic filtering by customer location
+- Interactive table of the 100 most recent sales
 
 ---
 
 ## 🧰 Tech Stack
 **Language:** Python  
-**Framework:** Dash  
-**Libraries:** pandas, plotly, dash-bootstrap-components
+**Libraries:** Dash, Plotly, Dash Bootstrap Components, pandas, NumPy
 
 ---
 
 ## ⚙️ Installation
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/<your-username>/<project-name>.git
+cd <project-name>
+pip install -r requirements.txt
+```
+
 > À compléter
-
----
-
-## 🌐 Live Applications
-- Supermarket sales dashboard: https://master-year1-advanced-python-1.onrender.com
-- TD dashboard: https://master-year1-advanced-python.onrender.com
 
 ---
 
 ## 📚 Usage Example
-> À compléter
+
+### Supermarket Sales Dashboard
+```bash
+python app.py
+```
+Open your browser at: `http://localhost:8000`
+
+### ECAP Store Dashboard
+```bash
+python app.py
+```
+Open your browser at: `http://127.0.0.1:8100/`
+
+Deployed versions:
+- Supermarket Sales Dashboard: https://master-year1-advanced-python-1.onrender.com
+- ECAP Store Dashboard: https://master-year1-advanced-python.onrender.com
 
 ---
 
 ## 📂 Project Structure
+
 ```
-> À compléter
+project-root/
+│
+├── supermarket_sales_dashboard/
+│   └── supermarket_sales.csv
+├── retail_insight_dashboard/
+│   └── omnichannel_retail_line_items.csv
+├── app.py
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
 ## 📊 Results
-The dashboard displays:
-- Real-time indicators of total sales and number of transactions
-- Distribution of purchase amounts segmented by gender and city
-- Product category shares
-- Weekly trends in total sales per city
+The dashboards present interactive visualizations, including:
+- Key performance indicators (sales, revenue, purchase frequency)
+- Product category distributions
+- Weekly trends in purchases and revenue
+- Filtered views by demographic and geographic criteria
 
-Visual outputs are rendered dynamically according to user-selected filters for city and gender.
+> À compléter
+
+---
+
+## 🧠 References
+- Supermarket dataset: `supermarket_sales.csv`
+- Omnichannel retail dataset: `omnichannel_retail_line_items.csv`
+- Python-Dash Course – Master 1 ECAP (2024–2025)
+- Plotly Dash Documentation
+- Dash Bootstrap Components Guide
 
 ---
 
 ## 📜 License
-> À compléter
+This project is released under the **MIT License**.  
+© 2025 Florian Crochet
 
 ---
 
 ## 👤 Author
 **Florian Crochet**  
-Master 1 – ECAP (2024–2025)
+[GitHub Profile](https://github.com/floriancrochet)
 
-Project completed under the supervision of M. Abdoul Razac SANE.
+*Master 1 – Econometrics & Statistics, Applied Econometrics Track*
 
 ---
 
 ## 💬 Acknowledgments
-This project was carried out במסגרת the Python-Dash course and thanks the open-source Python ecosystem for its robust tools supporting interactive data visualization.
+Developed as part of the Python-Dash academic project under the supervision of **M. Abdoul Razac SANE**.  
+Thanks to the open-source Dash and Plotly communities for their excellent tools and documentation.
 
