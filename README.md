@@ -6,8 +6,8 @@
 ## 🌐 Live Dashboards
 Access the deployed dashboards directly:
 
-- **Supermarket Sales Dashboard**: https://master-year1-advanced-python-1.onrender.com  
-- **ECAP Store Dashboard**: https://master-year1-advanced-python.onrender.com
+- [**Supermarket Sales Dashboard**](https://master-year1-advanced-python-1.onrender.com)  
+- [**ECAP Store Dashboard**](https://master-year1-advanced-python.onrender.com)
 
 ---
 
