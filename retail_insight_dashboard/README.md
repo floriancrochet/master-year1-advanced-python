@@ -1,108 +1,84 @@
 # ECAP Store Dashboard  
-*A Dash-based analytical dashboard for omnichannel retail sales performance.*
+*This interactive Python dashboard monitors omnichannel retail sales performance and product frequencies.*
 
-[**ECAP Store Dashboard**](https://master-year1-advanced-python.onrender.com) 
+[**ECAP Store Dashboard (Online)**](https://master-year1-advanced-python.onrender.com)
 
 ---
 
-## 📘 Overview
-This project provides tools for **visualizing and monitoring key retail metrics**, including sales evolution, product performance, and customer purchasing behavior.  
-It was developed as part of a **data analysis and visualization project** using the Dash framework and Plotly for interactive analytics.
+## 🎯 Overview
+This project provides tools for visualizing and monitoring key retail metrics, including sales evolution, product performance, and customer purchasing behavior.
 
 **Objectives**
-- Track total revenue and sales frequency by month and category  
-- Analyze top-selling products by gender  
-- Visualize weekly revenue trends  
-- Provide interactive filtering by customer location  
+- Track total revenue and sales frequency by month
+- Analyze top-selling products by gender
+- Visualize weekly revenue trends
+- Filter customer locations dynamically
+
+---
+
+## 🗄️ Data
+- **Source:** `omnichannel_retail_line_items.csv`
+- **Preprocessing:** Handled missing values with zero-filling and computed total transaction prices
+- **Data Availability:** Proprietary data provided in the `retail_insight_dashboard/` directory
 
 ---
 
 ## ⚙️ Features
-- Interactive data visualization with **Dash and Plotly**  
-- Automatic revenue and sales computation  
-- Top 10 product frequency analysis by gender  
-- Weekly revenue evolution chart  
-- Monthly indicators for sales and revenue  
-- Dynamic filtering by store location  
-- Data table of the 100 most recent sales  
+- **Visualize Retail Data:** Display revenue and product sales frequency using Plotly charts
+- **Track Weekly Revenue:** Map weekly sales evolution through interactive line graphs
+- **Analyze Product Frequency:** Extract the top 10 best-selling products categorized by gender
+- **Compute Real-Time Indicators:** Calculate monthly revenue totals dynamically
+- **Filter Dashboard Modules:** Slice the entire application instantaneously by store location
+- **Explore Sales History:** Present the 100 most recent transactions within an interactive table
 
 ---
 
 ## 🧰 Tech Stack
-**Language:** Python  
-**Libraries:** Dash, Plotly, Dash Bootstrap Components, pandas, NumPy  
+- **Language:** Python 3.10+
+- **Data Manipulation:** pandas, NumPy
+- **Visualization:** Plotly, Dash, Dash Bootstrap Components
+- **Deployment & MLOps:** gunicorn
 
 ---
 
-## ⚙️ Installation
-Clone the repository and install dependencies:
+## 📦 Installation
 
 ```bash
-git clone https://github.com/<your-username>/ecap-store-dashboard.git
-cd ecap-store-dashboard
-pip install -r requirements.txt
+git clone https://github.com/floriancrochet/master-year1-advanced-python.git
+cd master-year1-advanced-python
+uv sync
 ```
-
-> À compléter : exact repository name and requirements file details.
 
 ---
 
-## 📚 Usage Example
+## 💻 Usage Example
 
-Run the dashboard locally:
-
+### Reproducing the Analysis / Execution Pipeline
 ```bash
-python app.py
+uv run python retail_insight_dashboard/retail_insight_dashboard.py
 ```
-
-Then open your browser at `http://127.0.0.1:8100/`.
-
-The dashboard includes:
-- Revenue indicator (monthly)
-- Sales frequency indicator
-- Top 10 best-selling products
-- Weekly revenue evolution
-- Sales table with sorting and filtering
 
 ---
 
 ## 📂 Project Structure
 
-```
-ecap-store-dashboard/
+```text
+retail_insight_dashboard/
 │
-├── retail_insight_dashboard/
-│   └── omnichannel_retail_line_items.csv   # Source data
-├── app.py                                 # Main Dash application
-├── requirements.txt                       # Dependencies > À compléter
-└── README.md
+├── omnichannel_retail_line_items.csv   # Source data
+├── retail_insight_dashboard.py         # Main Dash application
+└── README.md                           # Project documentation
 ```
 
 ---
 
-## 📊 Results
-Example output:
-
-![Dashboard Example](./assets/dashboard_example.png)
-
-*(Displays interactive charts showing top sales, revenue evolution, and key performance indicators.)*
-
-> À compléter : add actual screenshot of the dashboard.
-
----
-
-## 🧠 References
-For theoretical background and visualization design:
-- Plotly Dash Documentation  
-- Dash Bootstrap Components Guide  
-- pandas and NumPy official references  
-
-> À compléter : academic or business-related references if used.
+## 📈 Results
+*(The application functions primarily as an interactive exploratory dashboard. No explicit predictive performance metrics were formulated).*
 
 ---
 
 ## 📜 License
-This project is released under the **MIT License**.  
+This project is released under the MIT License.  
 © 2025 Florian Crochet
 
 ---
@@ -115,5 +91,5 @@ This project is released under the **MIT License**.
 
 ---
 
-## 💬 Acknowledgments
-Special thanks to the open-source Dash and Plotly communities for their excellent visualization tools.  
+## 🤝 Acknowledgments
+This work was conducted as part of the Advanced Python module, supervised by M. Abdoul Razac SANE.

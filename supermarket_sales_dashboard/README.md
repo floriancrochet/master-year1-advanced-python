@@ -1,96 +1,85 @@
 # Supermarket Sales Dashboard  
-*An interactive Dash application for exploring supermarket sales by gender and city.*
+*This project provides an interactive Dash application for exploring supermarket sales by gender and city.*
 
 [**Supermarket Sales Dashboard**](https://master-year1-advanced-python-1.onrender.com)
 
 ---
 
-## 📘 Overview
-This project develops an interactive **dashboard using Dash** to analyze supermarket sales data.  
-It was built as part of a **Python-Dash course (Master 1 ECAP, 2024–2025)**, under the supervision of **M. Abdoul Razac SANE**.
+## 🎯 Overview
+This project provides an interactive dashboard built with Dash to analyze supermarket sales data.
 
 **Objectives**
-- Provide a visual and interactive analysis of supermarket sales.  
-- Allow filtering by **gender** and **city**.  
-- Display dynamic **indicators** and **graphs** for decision support.
+- Provide a visual and interactive analysis of supermarket sales
+- Allow filtering by gender and city
+- Display dynamic indicators and graphs for decision support
+
+---
+
+## 🗄️ Data
+- **Source:** `supermarket_sales.csv`
+- **Time Period / Size:** 1,000 rows
+- **Preprocessing:** Translated columns and modalities to French, converted dates
+- **Data Availability:** Provided in the local repository directory
 
 ---
 
 ## ⚙️ Features
-- Total purchase amount indicator (sum of total sales).  
-- Total number of purchases indicator (unique invoices).  
-- Interactive histogram of total purchase amounts by gender and city.  
-- Pie chart showing the distribution of product categories.  
-- Line chart tracking the weekly evolution of total purchases by city.  
-- French-translated data columns and user interface.  
-- Real-time interaction through Dash callbacks.  
+- **Calculate Totals:** Provide dynamic purchase amount and transaction indicators
+- **Visualize Histograms:** Display interactive total amounts segmented by gender and city
+- **Plot Distributions:** Generate a pie chart detailing product category market shares
+- **Track Evolution:** Draw line charts to monitor weekly sales progress by city
+- **Translate Interface:** Implement full French localization for columns and modalities
+- **Enable Interactivity:** Apply real-time Dash callbacks for dynamic filtering
 
 ---
 
 ## 🧰 Tech Stack
-**Language:** Python  
-**Libraries:** pandas, Dash, dash-bootstrap-components, plotly.express, plotly.graph_objects  
+- **Language:** Python 3.10+
+- **Data Manipulation:** pandas, NumPy
+- **Visualization:** Plotly, Dash, Dash Bootstrap Components
+- **Deployment & MLOps:** gunicorn
 
 ---
 
-## ⚙️ Installation
-Clone the repository and install dependencies:
+## 📦 Installation
 
 ```bash
-git clone https://github.com/<your-username>/supermarket-sales-dashboard.git
-cd supermarket-sales-dashboard
-pip install -r requirements.txt
+git clone https://github.com/floriancrochet/master-year1-advanced-python.git
+cd master-year1-advanced-python
+uv sync
 ```
-
-> À compléter – specify dependencies in `requirements.txt`.
 
 ---
 
-## 📚 Usage Example
+## 💻 Usage Example
 
-```python
-python app.py
+### Reproducing the Analysis / Execution Pipeline
+```bash
+uv run python supermarket_sales_dashboard/supermarket_sales_dashboard.py
 ```
-
-Then open your browser at [http://localhost:8000](http://localhost:8000).
-
-> The application will launch the dashboard interface with filters for gender and city, displaying indicators and graphs accordingly.
 
 ---
 
 ## 📂 Project Structure
 
-```
-supermarket-sales-dashboard/
+```text
+supermarket_sales_dashboard/
 │
-├── supermarket_sales_dashboard/
-│   └── supermarket_sales.csv       # Dataset
-├── app.py                          # Main Dash application
-├── requirements.txt
-└── README.md
+├── supermarket_sales_dashboard.py  # Main Dash application
+├── supermarket_sales.csv           # Dataset
+└── README.md                       # Project documentation
 ```
 
 ---
 
-## 📊 Results
-The dashboard displays:
-- Total purchase amount and number of purchases.
-- Histogram of total purchases by gender and city.
-- Pie chart of product category distribution.
-- Line chart of weekly sales evolution by city.
+## 📈 Results
 
-> À compléter – include a screenshot of the dashboard (e.g., `assets/dashboard_preview.png`).
-
----
-
-## 🧠 References
-Dataset source: `supermarket_sales.csv`  
-Assignment reference: *Python-Dash Course – Master 1 ECAP (2024–2025)*
+*(The application functions primarily as an interactive exploratory dashboard. No explicit predictive performance metrics were formulated).*
 
 ---
 
 ## 📜 License
-This project is released under the **MIT License**.  
+This project is released under the MIT License.  
 © 2025 Florian Crochet
 
 ---
@@ -103,6 +92,5 @@ This project is released under the **MIT License**.
 
 ---
 
-## 💬 Acknowledgments
-Developed under the guidance of **M. Abdoul Razac SANE**.  
-Special thanks to the open-source Dash and Plotly communities for their documentation and tools.
+## 🤝 Acknowledgments
+This work was conducted as part of the Advanced Python module, supervised by M. Abdoul Razac SANE.
