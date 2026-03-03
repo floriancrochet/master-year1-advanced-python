@@ -1,7 +1,7 @@
-# Supermarket Sales Dashboard  
+# Supermarket Sales Dashboard
 *This project provides an interactive Dash application for exploring supermarket sales by gender and city.*
 
-[**Supermarket Sales Dashboard**](https://master-year1-advanced-python-1.onrender.com)
+[Supermarket Sales Dashboard](https://master-year1-advanced-python-1.onrender.com)
 
 ---
 
@@ -35,8 +35,8 @@ This project provides an interactive dashboard built with Dash to analyze superm
 
 ## 🧰 Tech Stack
 - **Language:** Python 3.10+
-- **Data Manipulation:** pandas, NumPy
-- **Visualization:** Plotly, Dash, Dash Bootstrap Components
+- **Data Manipulation & I/O:** pandas, NumPy
+- **Data Visualization:** Plotly, Dash, Dash Bootstrap Components
 - **Deployment & MLOps:** gunicorn
 
 ---
@@ -54,6 +54,7 @@ uv sync
 ## 💻 Usage Example
 
 ### Reproducing the Analysis / Execution Pipeline
+
 ```bash
 uv run python supermarket_sales_dashboard/supermarket_sales_dashboard.py
 ```

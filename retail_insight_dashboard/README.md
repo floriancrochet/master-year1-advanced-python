@@ -1,7 +1,7 @@
-# ECAP Store Dashboard  
+# ECAP Store Dashboard
 *This interactive Python dashboard monitors omnichannel retail sales performance and product frequencies.*
 
-[**ECAP Store Dashboard (Online)**](https://master-year1-advanced-python.onrender.com)
+[ECAP Store Dashboard (Online)](https://master-year1-advanced-python.onrender.com)
 
 ---
 
@@ -35,8 +35,8 @@ This project provides tools for visualizing and monitoring key retail metrics, i
 
 ## 🧰 Tech Stack
 - **Language:** Python 3.10+
-- **Data Manipulation:** pandas, NumPy
-- **Visualization:** Plotly, Dash, Dash Bootstrap Components
+- **Data Manipulation & I/O:** pandas, NumPy
+- **Data Visualization:** Plotly, Dash, Dash Bootstrap Components
 - **Deployment & MLOps:** gunicorn
 
 ---
@@ -54,6 +54,7 @@ uv sync
 ## 💻 Usage Example
 
 ### Reproducing the Analysis / Execution Pipeline
+
 ```bash
 uv run python retail_insight_dashboard/retail_insight_dashboard.py
 ```
@@ -73,6 +74,7 @@ retail_insight_dashboard/
 ---
 
 ## 📈 Results
+
 *(The application functions primarily as an interactive exploratory dashboard. No explicit predictive performance metrics were formulated).*
 
 ---
