@@ -3,7 +3,7 @@
 
 | Sub-Project | Description |
 | :--- | :--- |
-| [Supermarket Sales Dashboard](https://master-year1-advanced-python-1.onrender.com) | Provide a visual and interactive analysis of supermarket sales |
+| [Supermarket Sales Dashboard (Online)](https://master-year1-advanced-python-1.onrender.com) | Provide a visual and interactive analysis of supermarket sales |
 | [ECAP Store Dashboard (Online)](https://master-year1-advanced-python.onrender.com) | Track total revenue and sales frequency by month |
 
 ---
@@ -21,7 +21,7 @@ This project provides two interactive dashboards built with Dash to analyze and 
 
 ## 🗄️ Data
 - **Source:** `supermarket_sales.csv` and `omnichannel_retail_line_items.csv`
-- **Time Period / Size:** 1,000 rows (Supermarket)
+- **Time Period / Size:** 1,000 rows (Supermarket), 52,955 rows (ECAP)
 - **Preprocessing:** Translated columns and modalities to French, converted dates, handled missing values with zero-filling, and computed total transaction prices
 - **Data Availability:** Included in the repository under `supermarket_sales_dashboard/` and `retail_insight_dashboard/`
 
@@ -49,9 +49,9 @@ This project provides two interactive dashboards built with Dash to analyze and 
 
 ## 🧰 Tech Stack
 - **Language:** Python 3.10+
-- **Data Manipulation & I/O:** pandas, NumPy
-- **Data Visualization:** Plotly, Dash, Dash Bootstrap Components
-- **Deployment & MLOps:** gunicorn
+- **Numerical Computing & Data Manipulation:** pandas, NumPy
+- **Data Visualization:** Plotly
+- **Dashboards & Web APIs:** Dash, Dash Bootstrap Components, gunicorn
 
 ---
 

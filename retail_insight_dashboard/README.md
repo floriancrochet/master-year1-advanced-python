@@ -18,6 +18,7 @@ This project provides tools for visualizing and monitoring key retail metrics, i
 
 ## 🗄️ Data
 - **Source:** `omnichannel_retail_line_items.csv`
+- **Time Period / Size:** 52,955 rows
 - **Preprocessing:** Handled missing values with zero-filling and computed total transaction prices
 - **Data Availability:** Proprietary data provided in the `retail_insight_dashboard/` directory
 
@@ -35,9 +36,9 @@ This project provides tools for visualizing and monitoring key retail metrics, i
 
 ## 🧰 Tech Stack
 - **Language:** Python 3.10+
-- **Data Manipulation & I/O:** pandas, NumPy
-- **Data Visualization:** Plotly, Dash, Dash Bootstrap Components
-- **Deployment & MLOps:** gunicorn
+- **Numerical Computing & Data Manipulation:** pandas, NumPy
+- **Data Visualization:** Plotly
+- **Dashboards & Web APIs:** Dash, Dash Bootstrap Components, gunicorn
 
 ---
 
