@@ -66,9 +66,9 @@ uv run python supermarket_sales_dashboard/supermarket_sales_dashboard.py
 ```text
 supermarket_sales_dashboard/
 │
-├── supermarket_sales_dashboard.py  # Main Dash application
-├── supermarket_sales.csv           # Dataset
-└── README.md                       # Project documentation
+├── README.md
+├── supermarket_sales.csv
+└── supermarket_sales_dashboard.py
 ```
 
 ---

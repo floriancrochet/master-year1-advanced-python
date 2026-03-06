@@ -67,9 +67,9 @@ uv run python retail_insight_dashboard/retail_insight_dashboard.py
 ```text
 retail_insight_dashboard/
 │
-├── omnichannel_retail_line_items.csv   # Source data
-├── retail_insight_dashboard.py         # Main Dash application
-└── README.md                           # Project documentation
+├── README.md
+├── omnichannel_retail_line_items.csv
+└── retail_insight_dashboard.py
 ```
 
 ---

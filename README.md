@@ -84,19 +84,14 @@ uv run python retail_insight_dashboard/retail_insight_dashboard.py
 ```text
 master-year1-advanced-python/
 │
-├── supermarket_sales_dashboard/
-│   ├── supermarket_sales_dashboard.py        # Supermarket sales Dash application
-│   ├── supermarket_sales.csv                 # Supermarket transactions dataset
-│   └── README.md                             # Supermarket dashboard documentation
 ├── retail_insight_dashboard/
-│   ├── retail_insight_dashboard.py           # ECAP store Dash application
-│   ├── omnichannel_retail_line_items.csv     # Omnichannel retail dataset
-│   └── README.md                             # ECAP dashboard documentation
-├── pyproject.toml                            # Python dependencies & project config (uv)
-├── uv.lock                                   # Exact Python dependency tree (uv)
-├── LICENSE                                   # MIT License
-├── .gitignore                                # Git ignore rules
-└── README.md                                 # Project documentation
+├── supermarket_sales_dashboard/
+├── .gitignore
+├── .python-version
+├── LICENSE
+├── README.md
+├── pyproject.toml
+└── uv.lock
 ```
 
 ---
